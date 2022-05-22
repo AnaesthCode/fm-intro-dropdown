@@ -41,6 +41,7 @@ const Modal = () => {
                     src="/images/icon-close-menu.svg"
                     width={30}
                     height={30}
+                    alt="close-menu-icon"
                   />
                 </div>
 

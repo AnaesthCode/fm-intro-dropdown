@@ -38,13 +38,25 @@ const MainHeader = () => {
     <>
       <navbar className={c.navbar}>
         <div className={c.navlogoMobile}>
-          <Image src="/images/logo.svg" priority width={95} height={30} />
+          <Image
+            alt="snap-logo-mobile"
+            src="/images/logo.svg"
+            priority
+            width={95}
+            height={30}
+          />
         </div>
 
         <div>
           <ul className={c.navlinks}>
             <li>
-              <Image src="/images/logo.svg" priority width={95} height={30} />
+              <Image
+                alt="snap-logo"
+                src="/images/logo.svg"
+                priority
+                width={95}
+                height={30}
+              />
             </li>
 
             <li onClick={toggleShowFeatures}>
@@ -67,7 +79,12 @@ const MainHeader = () => {
           <button>Register</button>
         </div>
         <div onClick={modalCtx.toggleModal} className={c.hamburgerMobile}>
-          <Image src="/images/icon-menu.svg" width={40} height={20} />
+          <Image
+            alt="icon-menu"
+            src="/images/icon-menu.svg"
+            width={40}
+            height={20}
+          />
         </div>
       </navbar>
       <Features active={showFeatures} />

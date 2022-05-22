@@ -17,16 +17,36 @@ const HeroRemoteWork = () => {
 
       <ul>
         <li>
-          <Image src="/images/client-databiz.svg" width={120} height={20} />
+          <Image
+            alt="databiz-logo"
+            src="/images/client-databiz.svg"
+            width={120}
+            height={20}
+          />
         </li>
         <li>
-          <Image src="/images/client-audiophile.svg" width={80} height={40} />
+          <Image
+            alt="audiophile-logo"
+            src="/images/client-audiophile.svg"
+            width={80}
+            height={40}
+          />
         </li>
         <li>
-          <Image src="/images/client-meet.svg" width={90} height={20} />
+          <Image
+            alt="meet-logo"
+            src="/images/client-meet.svg"
+            width={90}
+            height={20}
+          />
         </li>
         <li>
-          <Image src="/images/client-maker.svg" width={90} height={30} />
+          <Image
+            alt="maker-logo"
+            src="/images/client-maker.svg"
+            width={90}
+            height={30}
+          />
         </li>
       </ul>
     </section>
