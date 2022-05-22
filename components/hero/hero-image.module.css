@@ -1,0 +1,27 @@
+.content {
+  display: inline-block;
+  width: 40%;
+  background-image: url("/images/image-hero-desktop.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 1385px) {
+  .content {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    min-height: 320px;
+    margin: 0;
+    width: 375px;
+    background-image: url("/images/image-hero-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

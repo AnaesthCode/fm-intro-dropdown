@@ -1,0 +1,82 @@
+.overlay {
+  width: 30%;
+  min-height: 150vh;
+  background-color: hsla(0, 0%, 8%, 0.69);
+  z-index: 1;
+  position: absolute;
+  right: -10;
+  top: 0;
+}
+
+.modal {
+  width: 70%;
+  min-height: 120vh;
+  background-color: var(--almost-white);
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal div {
+  align-self: flex-end;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.modal ul {
+  margin: 1rem 0 3rem 0;
+}
+
+.modal li {
+  color: var(--medium-gray);
+  padding: 2rem 0 0 2rem;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalFeatures ul,
+.modalCompany ul {
+  padding: 0 3rem;
+}
+
+.modalFeatures li,
+.modalCompany li {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5rem 0;
+  margin: 0;
+}
+
+.modal li:hover,
+.modal span:hover {
+  cursor: pointer;
+  color: var(--almost-black);
+}
+
+.modal button {
+  background-color: var(--almost-white);
+  color: var(--medium-gray);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  height: 2.5rem;
+  width: 10rem;
+  letter-spacing: 1px;
+  align-self: center;
+  border: none;
+}
+
+.modal button:hover {
+  cursor: pointer;
+  color: var(--almost-black);
+}
+
+.modal button:last-child {
+  border: 1px solid var(--medium-gray);
+  border-radius: 12px;
+}
