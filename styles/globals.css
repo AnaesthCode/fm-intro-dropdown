@@ -14,7 +14,7 @@ body {
   font-family: "Epilogue", sans-serif;
   background-color: var(--almost-white);
   max-width: 1440px;
-  min-height: 140vh;
+  min-height: 110vh;
 }
 
 a {
