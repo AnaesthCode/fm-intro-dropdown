@@ -1,6 +1,6 @@
 .overlay {
   width: 30%;
-  min-height: 150vh;
+  min-height: 110vh;
   background-color: hsla(0, 0%, 8%, 0.69);
   z-index: 1;
   position: absolute;
@@ -10,7 +10,7 @@
 
 .modal {
   width: 70%;
-  min-height: 120vh;
+  min-height: 110vh;
   background-color: var(--almost-white);
   z-index: 10;
   position: absolute;
